@@ -3,7 +3,7 @@ module "eks" {
   version = "~> 20.0"
 
   cluster_name    = "${var.project_name}-eks"
-  cluster_version = "1.30"
+  cluster_version = "1.31"
 
   # Public and private API endpoint access allow karta hai taaki local machine & nodes dono connect ho sakein
   cluster_endpoint_public_access  = true
