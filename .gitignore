@@ -1,0 +1,19 @@
+﻿# Terraform local folders & state files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Node dependencies
+node_modules/
+npm-debug.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

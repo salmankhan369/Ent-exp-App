@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ent-exp-container
-        image: <ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/ent-exp-app-repo:latest
+        image: 396633054990.dkr.ecr.us-east-1.amazonaws.com/ent-exp-app-repo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
